@@ -27,7 +27,7 @@ file(GLOB CPP_FILES *.cpp)
 add_executable(PlusImageStreaming MACOSX_BUNDLE
 ${CXX_FILES} ${CPP_FILES} ${UISrcs} ${QT_WRAP})
 
-target_link_libraries(VostarsImageStreaming ${VTK_LIBRARIES}
+target_link_libraries(PlusImageStreaming ${VTK_LIBRARIES}
 Qt5::Widgets
 vtkGUISupportQt
 vtkPlusServer
